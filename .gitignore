@@ -1,0 +1,12 @@
+node_modules
+*.swp
+/build
+*.a
+*.dylib
+*.so
+*.o
+*.obj
+*.lib
+*.exp
+bindings/c/*.h
+bindings/c/tree-sitter-*.pc
