@@ -1,12 +1,27 @@
-node_modules
-*.swp
-/build
+# Rust artifacts
+target/
+
+# Node artifacts
+build/
+prebuilds/
+node_modules/
+
+# C artifacts
 *.a
-*.dylib
 *.so
-*.o
-*.obj
-*.lib
+*.so.*
+*.dylib
+*.dll
+*.pc
 *.exp
-bindings/c/*.h
-bindings/c/tree-sitter-*.pc
+*.lib
+
+# Grammar volatiles
+*.wasm
+*.obj
+*.o
+
+# Archives
+*.tar.gz
+*.tgz
+*.zip

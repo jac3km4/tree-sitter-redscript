@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "redscript",
+      "camelcase": "RedScript",
+      "scope": "source.redscript",
+      "file-types": ["redscript"],
+      "injection-regex": "^redscript$",
+      "class-name": "TreeSitterRedscript"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Redscript grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "jekky"
+      },
+      {
+        "name": "Zhincore"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/jac3km4/tree-sitter-redscript"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "node": true,
+    "python": false,
+    "rust": true,
+    "swift": false,
+    "zig": false
+  }
+}
